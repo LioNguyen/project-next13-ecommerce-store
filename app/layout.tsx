@@ -9,8 +9,11 @@ import ToastProvider from "@/providers/toast-provider";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Store",
+  title: "Lio | E-Commerce Store",
   description: "Store - The place for all your purchases.",
+  icons: {
+    icon: "/ecommerce-logo.png",
+  },
 };
 
 export default function RootLayout({
